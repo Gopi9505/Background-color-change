@@ -1,71 +1,70 @@
-body {
-    background: black;
+body{
+    background-color: darkgray;
 }
-
-h1 {
-    color:#6203e0;
-    text-align: center;
+.container{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto 20px auto;
 }
-
-div {
-    width:25%;
-    height: 50px;
+.container .c2{
     margin: auto;
     display: flex;
-    justify-content: space-around;
-    padding: 5px;
-    background: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-#color1 {
-    flex: 1;
-    background: #e58e26;
-    color:#e58e26;
+button{
+    padding: 15px;
+    width: 100px;
+    margin: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
 }
 
-#color2 {
-    flex: 1;
-    background: #f9b4ab;
-    color: #f9b4ab;
+.container2{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#color3 {
-    flex: 1;
-    background: #B1FB17;
-    color: #B1FB17;
+button:nth-child(1){
+    background-color: red;
+}
+button:nth-child(2){
+    background-color: yellow;
+    color: black;
+}
+button:nth-child(3){
+    background-color: brown;
+}
+button:nth-child(4){
+    background-color: blue;
+}
+button:nth-child(5){
+    background-color: pink;
+    color: black;
+}
+button:nth-child(6){
+    background-color: green;
+}
+button:nth-child(7){
+    background-color: orange;
+}
+button:nth-child(8){
+    background-color: violet;
+    color: black;
+}
+button:nth-child(9){
+    background-color: indigo;
+}
+.container2 .d2 button{
+    background-color: white;
+    color: black;
 }
 
-#color4 {
-    flex: 1;
-    background: #78e08f;
-    color: #78e08f;
-}
-
-#color5 {
-    flex: 1;
-    background: #fd79a8;
-    color: #fd79a8;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-    h1 {
-        color:#6203e0;
-        text-align: center;
-    }
-    div {
-        width:25%;
-        height: auto;
-        margin: auto;
-        background: white;
-        display: flex;
-        flex-direction: column;
-    }
-    div a{
-        width: auto;
-        height: 100px;
-        margin: 5px 10px;
-    }
-  }
