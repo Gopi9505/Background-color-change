@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Document</title>
+  <title>Backgroun color change</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="color.js"></script>
 </head>
 <body>
   <div class="container">
-    <p class="red" onmouseover="changeBG(this);">Red</p>
-    <p class="yellow" onmouseover="changeBG(this);">Yellow</p>
-    <p class="blue" onmouseover="changeBG(this);">Blue</p>
-    <p class="pink" onmouseover="changeBG(this);">Pink</p>
-    <p class="green" onmouseover="changeBG(this);">Green</p><br><br><br>
-    <p class="center" onmouseover="changeBG(this);"></p>
+    <div class="c1">
+      <p>Click on this buttons to change the page background color</p>
+    </div>
+    <div class="c2">
+      <button onclick="changeBG(this);">Red</button>
+      <button onclick="changeBG(this);">Yellow</button>
+      <button onclick="changeBG(this);">Brown</button>
+      <button onclick="changeBG(this);">Blue</button>
+      <button onclick="changeBG(this);">Pink</button>
+      <button onclick="changeBG(this);">Green</button>
+      <button onclick="changeBG(this);">Orange</button>
+      <button onclick="changeBG(this);">Violet</button>
+      <button onclick="changeBG(this);">Indigo</button>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="d1">
+      <p>or click here to see magic</p>
+    </div>
+    <div class="d2">
+      <button id="btn" onclick="magic()">click me</button>
+    </div>
   </div>
 </body>
 </html>
